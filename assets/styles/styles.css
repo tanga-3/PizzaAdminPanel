@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+ }
+ input, select, textarea {
+   padding: 8px 15px
+ }
+button {
+  padding: 8px 15px;
+  min-width: 100px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+button.contained {
+  background: #f35d5c;
+}
+button.contained:hover {
+  background: linear-gradient(to bottom, #f35d5c 5%, #fc8d83 100%);
+  background-color: #f35d5c;
+}
+button.outlined {
+  border: 1px solid #f35d5c;
+  background: transparent;
+}
+.container{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+}
+.content {
+  flex: 5;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+.navbar{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 300px;
+  background: #2a2d40;
+  min-height: 100%;
+  color: #fff;
+}
+
+.navbar-items li{
+  padding: 10px 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.navbar-items li:first-child{
+  text-align: center;
+  cursor: default;
+ }
+ .list{
+   background: url(../../assets/images/icons/list.png) no-repeat 30px;    
+ }
+ 
+ .add{
+   background: url(../../assets/images/icons/add.png) no-repeat 30px;    
+ }
+ .log-out{
+   background: url(../../assets/images/icons/userWhite.png) no-repeat 30px;    
+ }
+.logo {
+margin: 30px auto;
+}
+.icon{
+margin-right: 10px;
+}
+.inner-content{
+  background: #fff;
+  margin: 20px;
+}
+.products-list-head{
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #fff;
+  margin: 20px;
+}
+.products-list-head li{
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.pizza-photo {
+  width: 80px;
+}
+.actions{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+}
+.actions button{
+  min-width: 80px;
+  margin: 5px;
+}
+.actions .edit{
+  background: green;
+}
+.actions .edit:hover{
+  opacity: 0.8;
+}
+.product-wrapper{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+form.create-form{
+  width: 600px;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  justify-content: flex-start;
+}
+.flex-row label{
+  min-width: 250px
+}
+.flex-row input, textarea{
+  width:100%;
+}
+textarea{
+  min-height: 100px;
+}
+.add-product{
+display: flex;
+justify-content: flex-end;
+}
+.create-wrapper{
+  padding: 30px;
+  flex:1;
+}
